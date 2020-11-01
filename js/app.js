@@ -13,7 +13,7 @@ App = {
       web3 = new Web3(web3.currentProvider);
     } else {
       // set the provider you want from Web3.providers
-      App.web3Provider = new Web3.providers.HttpProvider('https://codechain.netlify.app/');
+      App.web3Provider = new Web3.providers.HttpProvider('https://mainnet.infura.io/v3/dafe7978cb1145039d88ae648aa3278a');
       web3 = new Web3(App.web3Provider);
     }
 
